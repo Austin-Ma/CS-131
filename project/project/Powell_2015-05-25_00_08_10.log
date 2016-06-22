@@ -1,0 +1,201 @@
+INFO:root:Powell:8004 server started
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+INFO:root:Added new client: martha_hunt
+INFO:root:Location update by Powell: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+INFO:root:Location update sent from Powell to Alford
+INFO:root:Location update sent from Powell to Bolden
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+INFO:root:Outdated/duplicate location update from Alford
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+INFO:root:Added new client: cara_delevingne
+INFO:root:Location update by Powell: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+INFO:root:Location update sent from Powell to Alford
+INFO:root:Location update sent from Powell to Bolden
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+INFO:root:Outdated/duplicate location update from Bolden
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Connection made. Total: 2
+INFO:root:Line received: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Added new client: yumi_lambert
+INFO:root:Location update by Powell: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Location update sent from Powell to Alford
+INFO:root:Location update sent from Powell to Bolden
+INFO:root:Line received: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Outdated/duplicate location update from Hamilton
+INFO:root:Connection lost. Total: 1
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: WHATSAT cara_delevingne 27 3
+INFO:root:Sent Google Places API request to https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyCkw_HbOwiI30J19GBoQyFRSmdLTYyM7Qo&location=+20.634281,-156.451321&radius=27
+INFO:root:Google Places API response: {
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 20.6338589,
+               "lng" : -156.4497414
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "6bd90f6a1909231b37f016f4a5612dc8d8df3bc2",
+         "name" : "Unnamed Rd",
+         "place_id" : "ChIJu7PmNaDcVHkRSNG4afxfdzk",
+         "reference" : "CoQBfQAAAFbxJo_5SOwp2mjaPzVxmMohPLYggTdfO2u_6FyAYH4Go4B2egvrdASJuyA_9pzE1xWpHLqQuG1m-MF-uyDIxxD-zqnA8Bz1YvwMRDIMEkSkK9e77XCTJ3PsT9pU9tUW85g6U93wcpMf1hJv_GgTwRHuQjjZLAUKXN2lnyWvJWwxEhCnhSplyX9xWovzklYOk0YHGhTGSBen3sEcmHWpSJgEL1kT6fxR2A",
+         "scope" : "GOOGLE",
+         "types" : [ "route" ],
+         "vicinity" : "Kihei"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 20.6345903,
+               "lng" : -156.4464943
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 20.6409662,
+                  "lng" : -156.4434331
+               },
+               "southwest" : {
+                  "lat" : 20.6284455,
+                  "lng" : -156.4530325
+               }
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2ba261cbab98ef26cd02d0e79a2d71187b057b81",
+         "name" : "Makena State Park",
+         "place_id" : "ChIJvUdbXqDcVHkR_--SKJRV0C0",
+         "reference" : "CnRuAAAA11qZbU9o_pvWSTfGkJE2p-ZpQ2TlVOeUU1XGXpio8isj-abKukzf-SD42EkJ5mdH13Vp2Aag_XgCfdX9TbmDIRCuVv5Boyh61qlaZ41aE4qxBF41mCTkdjPaAZA5ZSSDUi8wvxmLSevg7X6Mtn-m5BIQyQ8fn-M4_48xq0jSnjDI2hoUrqohhKkl-d7f4oAu1EQ5pn3qL6I",
+         "scope" : "GOOGLE",
+         "types" : [ "park", "establishment" ],
+         "vicinity" : "Kihei"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 20.6684769,
+               "lng" : -156.4390541
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 20.7180213,
+                  "lng" : -156.3814931
+               },
+               "southwest" : {
+                  "lat" : 20.5959236,
+                  "lng" : -156.4529054
+               }
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "197b6e9aec6cada96ee5056c6094f9b5e8cc495f",
+         "name" : "Wailea-Makena",
+         "place_id" : "ChIJ1a4stMnEVHkRRqYipS2cRHg",
+         "reference" : "CoQBcwAAAJtPBua432Pjmx3LmX_J-XwJNTBNqmOFqMd0D8qxZ110OSr3dfVpJcFOOb5bKB5k5Lp8ffxZjImBLcZUDURNzqruAlTQ5Z9euBKOZM6zEIqqivgitYLnpDyTvo2WMogk1UBkZNUTtmVG3nxgpJ0uHVzAIektK1jIZbxN2JCd_koDEhBrlhob8VYNoU8mE9Lp6Gn7GhQBSexhdE1s69HkB53cQbELSfsUmQ",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Wailea-Makena"
+      }
+   ],
+   "status" : "OK"
+}
+
+INFO:root:Powell's response: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+{
+    "status": "OK", 
+    "html_attributions": [], 
+    "results": [
+        {
+            "name": "Unnamed Rd", 
+            "reference": "CoQBfQAAAFbxJo_5SOwp2mjaPzVxmMohPLYggTdfO2u_6FyAYH4Go4B2egvrdASJuyA_9pzE1xWpHLqQuG1m-MF-uyDIxxD-zqnA8Bz1YvwMRDIMEkSkK9e77XCTJ3PsT9pU9tUW85g6U93wcpMf1hJv_GgTwRHuQjjZLAUKXN2lnyWvJWwxEhCnhSplyX9xWovzklYOk0YHGhTGSBen3sEcmHWpSJgEL1kT6fxR2A", 
+            "geometry": {
+                "location": {
+                    "lat": 20.6338589, 
+                    "lng": -156.4497414
+                }
+            }, 
+            "place_id": "ChIJu7PmNaDcVHkRSNG4afxfdzk", 
+            "vicinity": "Kihei", 
+            "scope": "GOOGLE", 
+            "id": "6bd90f6a1909231b37f016f4a5612dc8d8df3bc2", 
+            "types": [
+                "route"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png"
+        }, 
+        {
+            "name": "Makena State Park", 
+            "reference": "CnRuAAAA11qZbU9o_pvWSTfGkJE2p-ZpQ2TlVOeUU1XGXpio8isj-abKukzf-SD42EkJ5mdH13Vp2Aag_XgCfdX9TbmDIRCuVv5Boyh61qlaZ41aE4qxBF41mCTkdjPaAZA5ZSSDUi8wvxmLSevg7X6Mtn-m5BIQyQ8fn-M4_48xq0jSnjDI2hoUrqohhKkl-d7f4oAu1EQ5pn3qL6I", 
+            "geometry": {
+                "location": {
+                    "lat": 20.6345903, 
+                    "lng": -156.4464943
+                }, 
+                "viewport": {
+                    "northeast": {
+                        "lat": 20.6409662, 
+                        "lng": -156.4434331
+                    }, 
+                    "southwest": {
+                        "lat": 20.6284455, 
+                        "lng": -156.4530325
+                    }
+                }
+            }, 
+            "place_id": "ChIJvUdbXqDcVHkR_--SKJRV0C0", 
+            "vicinity": "Kihei", 
+            "scope": "GOOGLE", 
+            "id": "2ba261cbab98ef26cd02d0e79a2d71187b057b81", 
+            "types": [
+                "park", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png"
+        }, 
+        {
+            "name": "Wailea-Makena", 
+            "reference": "CoQBcwAAAJtPBua432Pjmx3LmX_J-XwJNTBNqmOFqMd0D8qxZ110OSr3dfVpJcFOOb5bKB5k5Lp8ffxZjImBLcZUDURNzqruAlTQ5Z9euBKOZM6zEIqqivgitYLnpDyTvo2WMogk1UBkZNUTtmVG3nxgpJ0uHVzAIektK1jIZbxN2JCd_koDEhBrlhob8VYNoU8mE9Lp6Gn7GhQBSexhdE1s69HkB53cQbELSfsUmQ", 
+            "geometry": {
+                "location": {
+                    "lat": 20.6684769, 
+                    "lng": -156.4390541
+                }, 
+                "viewport": {
+                    "northeast": {
+                        "lat": 20.7180213, 
+                        "lng": -156.3814931
+                    }, 
+                    "southwest": {
+                        "lat": 20.5959236, 
+                        "lng": -156.4529054
+                    }
+                }
+            }, 
+            "place_id": "ChIJ1a4stMnEVHkRRqYipS2cRHg", 
+            "vicinity": "Wailea-Makena", 
+            "scope": "GOOGLE", 
+            "id": "197b6e9aec6cada96ee5056c6094f9b5e8cc495f", 
+            "types": [
+                "locality", 
+                "political"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png"
+        }
+    ]
+}
+
+
+INFO:root:Line received: quit
+ERROR:root:Invalid command: quit
+INFO:root:Connection lost. Total: 0
+INFO:root:Powell server shutdown

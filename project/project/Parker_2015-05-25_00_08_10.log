@@ -1,0 +1,360 @@
+INFO:root:Parker:8003 server started
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+INFO:root:Added new client: martha_hunt
+INFO:root:Location update by Parker: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+INFO:root:Location update sent from Parker to Alford
+INFO:root:Location update sent from Parker to Bolden
+INFO:root:Location update sent from Parker to Hamilton
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Connection made. Total: 2
+INFO:root:Line received: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+INFO:root:Outdated/duplicate location update from Alford
+INFO:root:Line received: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+INFO:root:Outdated/duplicate location update from Alford
+INFO:root:Connection lost. Total: 1
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+INFO:root:Added new client: cara_delevingne
+INFO:root:Location update by Parker: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+INFO:root:Location update sent from Parker to Alford
+INFO:root:Location update sent from Parker to Bolden
+INFO:root:Location update sent from Parker to Hamilton
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+INFO:root:Outdated/duplicate location update from Bolden
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+INFO:root:Outdated/duplicate location update from Bolden
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Added new client: yumi_lambert
+INFO:root:Location update by Parker: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Location update sent from Parker to Alford
+INFO:root:Location update sent from Parker to Bolden
+INFO:root:Location update sent from Parker to Hamilton
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Connection made. Total: 2
+INFO:root:Line received: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Outdated/duplicate location update from Hamilton
+INFO:root:Line received: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Outdated/duplicate location update from Hamilton
+INFO:root:Connection lost. Total: 1
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: WHATSAT martha_hunt 45 5
+INFO:root:Sent Google Places API request to https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyCkw_HbOwiI30J19GBoQyFRSmdLTYyM7Qo&location=-7.607874,+110.204051&radius=45
+INFO:root:Google Places API response: {
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.607898499999999,
+               "lng" : 110.2047186
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "28d8139028a91e501fb46f9370965e7b0f0e7bd0",
+         "name" : "Jalan East Side Pedestrian Walk",
+         "place_id" : "ChIJoftX7_GMei4R5fvM7_jSyFw",
+         "reference" : "CsQBvAAAAO6b3bxvFZWpXEYkC1Bfr7gjrtoFkelljPDQc19vlxbzbvFsSssYb7jByn4nMKJzJ_IgFxI2aWOpPZXM8lpxDM1UqIgDJ7XYpSFrK0b-P4JYS5OTouwjf24Xw73sZ9gmQlrYLrpO8sAdp3eALI_aPDmhEk-Z8CHq2U2D5O4e56B1X6yKZM7_Wbb3IrlqTBdU0OG0Deir0m6N-LS09jFX2j3GOc_5Vfv-UgVhqUmWplUsRyyNTt9Izs2cmXmg-WbGjRIQefLM99wMVXIWq2abMu9naBoUeSx45FdXCbKKCd-z60ME5xgwql0",
+         "scope" : "GOOGLE",
+         "types" : [ "route" ]
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.6078738,
+               "lng" : 110.2037513
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b12ae5a1a6928770dbdc2f915737b756a13d1d0f",
+         "name" : "Borobudur Temple",
+         "place_id" : "ChIJl9anCfCMei4Ry8NNdDRD0w0",
+         "reference" : "CnRtAAAAc0c2HXyLYlQnmLCNTuIUPVyYLmYSUovR2R2CpIH6korJMpUZnDt9QELXF2DDdWo3x12y1F79Yl2KWz8x2mZr9AyEAuyvuL9ggMBU_t4qQGwW5yOjZulcvlcnjn2S7mvWntfFo9puhGfSAWNg8xloPRIQdp4-IdGQYkbJ35gq_jgQghoUjGbmMZaj-WuDRDwWPgLeCY6VQY8",
+         "scope" : "GOOGLE",
+         "types" : [ "place_of_worship", "point_of_interest", "establishment" ]
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.607874,
+               "lng" : 110.203751
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2e79c29c1b357916d91cbdece3c792d92f17ed3d",
+         "name" : "Borobudur Temple",
+         "photos" : [
+            {
+               "height" : 581,
+               "html_attributions" : [ "From a Google User" ],
+               "photo_reference" : "CnRoAAAAyVy9sj3vdj6NIPbBqKJ-Xb2DSv7YWFXZaw5XoHmj3YmA032_LtRWiu8Hfxhf05JWWDGT_VnzBoulIfFHjYdAnm05cGQFgmB_Uyd0R-lvtCu1TLI3X2mNK3u6SGGUSGD0hsVo3Cvs4GJ2rAtifUM4QhIQ4eT9UpPVn7s6k1eLO4AAthoUd3wvcg881PyvDPxHGQa54TPpUfQ",
+               "width" : 1032
+            }
+         ],
+         "place_id" : "ChIJl9anCfCMei4Ry8NNdDRD0w0",
+         "rating" : 4.5,
+         "reference" : "CnRjAAAAdKdQZ2an3bPCbjbstcKGx0cvCaKQZNBBJGyC1dHkmVIVC7V_ojhBjI7PJTx5AVZgz-kx3UoQ71xVR0ebT6COonqJaLD3L8sgL1hw1dGELbHYXXCY_lv7bqWWxylqbQduf7wKiSTzZ-zSbIK9h09GARIQGn0ydN7VEDr4a3smke9OxhoU_yL_fhg98mbzBL7VxEzbkGO7LyE",
+         "scope" : "GOOGLE",
+         "types" : [ "place_of_worship", "establishment" ],
+         "vicinity" : "Indonesia"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.607869,
+               "lng" : 110.203755
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c171feaf2b6ee84b020791db11d5888e49745ab8",
+         "name" : "Bank Jateng",
+         "place_id" : "ChIJwSv_xPGMei4RFhYZXr27S8c",
+         "reference" : "CmRfAAAA8kSDLuKFrj6Gh-27kBTP806_cl5rOkpWltHbKCl0OY4Dy4GBCk5SIpeJhqh8WSkmxbU_Jc4Sy83oTs-7pMwWWcHSE0QhcMrzvNjESLDLTPEJPDqmoYe2NBoGgm3jj6kpEhCR0kzxwTNYLkHNOCdISQbZGhQXsq4JidSxMaDyXZtH5GSGzqP7Jw",
+         "scope" : "GOOGLE",
+         "types" : [ "atm", "finance", "establishment" ],
+         "vicinity" : "Borobudur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.607869,
+               "lng" : 110.203755
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3d620ca9ebb0d48338a7519b205b299ca1c6119a",
+         "name" : "Yamaha",
+         "place_id" : "ChIJwSv_xPGMei4RnPu_WrazxDc",
+         "reference" : "CmRZAAAAJDpgu0Ln43sqZHzXMpeEcuVq09hqJovfRfRXvpm8dO3POFnnsgUhlGfStZ_GAAYxpvVedq1vgohSayaWqrGW3tIEWiwhAA5m-o0P9FNV5L7BcEQCENA-yKaAIu_GEP24EhC8-oJ3FFxshOoirqdmODW8GhR69ASQKGVgTVE3GYLTOLlPL4-2BA",
+         "scope" : "GOOGLE",
+         "types" : [ "store", "establishment" ],
+         "vicinity" : "Borobudur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.60749,
+               "lng" : 110.203742
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/electronics-71.png",
+         "id" : "5713c352875a48fb6a6283d598877cb2560fa797",
+         "name" : "LKP Harapan Bangsa",
+         "place_id" : "ChIJGVMIx_GMei4RGOsGV9IMxWk",
+         "reference" : "CnRlAAAA32ZMV5IaUU_sDNo9IV6qUYI6KadSImUZyj4SGyeqKZ7iZ6_0sm_SYiBx1wdggoD_ELZAZo4-5ZjZPGxx2FFdcGcXHGWaHdO5FOuRJZLqqjitbqgbf_1zr5-h9u8k-FUXPzp6fbap7cmfntr5W57ruxIQ7oyn8e8dME42szM0pnqPaxoUKD0nMd5EfbLK69fPZDgk7mUjQy8",
+         "scope" : "GOOGLE",
+         "types" : [ "electronics_store", "store", "establishment" ],
+         "vicinity" : "Kota Magelang, JL. Kapling Janan, RT. 06 RW. 04, Borobudur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.608,
+               "lng" : 110.204
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "90bdab096d9e227649b0cb34b2f843413736c384",
+         "name" : "Lembaga Keuangan Masyarakat Desa Kenalan",
+         "place_id" : "ChIJRQJLw_GMei4Rt95tKbVzyg8",
+         "reference" : "CoQBewAAAB6bEgS5i-V8jfyuiy2PBuh0DP8EGwYInrYmFmoODPASf_AMua1xVg_mHic1GIy4ihgVwIaIclQzDQGx4oSsN0l_MYR1QjyTraBwy0OYYLykbnI1HcrfWpPQHj-vEiC5Py4ARllhg2HPZEkFpx7UKzuLN2esLVqYaejTiuv0sYVEEhAXnnbPvDDd2w8cGG8xn0G8GhS0x3zGPk9BsXsmM2Qozr_ilixUnw",
+         "scope" : "GOOGLE",
+         "types" : [ "establishment" ],
+         "vicinity" : "Kota Magelang, Kenalan, RT. 01 RW. 03, Borobudur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.607874,
+               "lng" : 110.203751
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "9cc9840850b7786e59458dc8abbc793c2396aa69",
+         "name" : "Bank BTN Branch (Kantor Kas Layanan Pos Online Borobudur)",
+         "place_id" : "ChIJb8H-xPGMei4RnkaVf6F6cLw",
+         "reference" : "CpQBjgAAAAnBOK7_2g_cuE3MnhO1VkOXRNZalfHeAW-o-njiB-qpZThVzhjGlDSY8eNvAaxfY2bjSlYWGIbS-azwCd6m441OmrrPBQ6bf_0yBNXJt_Oo31InSxRataE6mfMbQdS4VI_Vc-Ucc7D_Op1pPegc2TIEpsmwc8h-tWyNI2qXMzU7lXfQ-eMKnndOamGnez5jHRIQisPH408j5csNj_uCppPVrxoU7bbIISn__DG9ryGAh03myGE7AA4",
+         "scope" : "GOOGLE",
+         "types" : [ "establishment" ],
+         "vicinity" : "JL Pramudya Wardani, No.1, Borobudur, Magelang"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.607869,
+               "lng" : 110.203755
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "6fb6117983fd7570358766fd58630b2f91ba07a0",
+         "name" : "Indomaret Borobudur",
+         "place_id" : "ChIJyyv_xPGMei4RhTeGfN-QSC4",
+         "reference" : "CnRmAAAAfQw8iOlTtErluXzjxhmyO6DbiVlOb6acCtc1GSLb6Qd7iHLphJ2nU6iBKzEo6fZBpvXZ9rTFkaduYvMiruqxf6XDNLB5O9d3j1S7IPdGsfghQdJSfP0nl51rFqHqCb_qWOoskRwV6TBrY8pOfhkG8BIQqP7KcTITDgFG24_CiyZtaBoUwCpcRS6rJtQFJQm035nbS7HaJ5w",
+         "scope" : "GOOGLE",
+         "types" : [ "convenience_store", "food", "store", "establishment" ],
+         "vicinity" : "Magelang, Jl. Pramudya Wardani, Borobudur, Borobudur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.607957,
+               "lng" : 110.203897
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3b31bef5f4b1f019b64763c32ffad9ec19d94325",
+         "name" : "Madrasah Ibtidaiyah Swasta (MIS) Ma'arif Wringinputih",
+         "place_id" : "ChIJT6GmxPGMei4RHzPxMuKweHE",
+         "reference" : "CpQBiQAAANmhS6fkbHQ4gGNhRLPO2bibnr6qJfSqL2RtQZGeZAXwvCwUh7TYTCVzeO10mfOMHaIrQCTL3VuY4cVA6GBrJZqi0osvBdhsP6ZKt7rG_PpoWT4ggbBBkk6sitibwknBNX7NvuUpASLPd8fHTQukEvhjXu855_hMxUtRlkk4bSeUFWYf38UsRbj48MJkbrQFphIQWtFdEraAH_ri6m7AYN19WBoUgi6Jq9xUG56yQMATckyeiC5B5Pg",
+         "scope" : "GOOGLE",
+         "types" : [ "school", "establishment" ],
+         "vicinity" : "Kota Magelang, JL. Srigentan, Borobudur"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -7.607869,
+               "lng" : 110.203755
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "b61f7a046f0159aa177a2656a0c03f8acb679b27",
+         "name" : "Lumintu Hotel",
+         "place_id" : "ChIJwSv_xPGMei4R0Q5aPwu5Po0",
+         "reference" : "CnRhAAAAyCs5Du-UBRCQ1a1Ztc2aEGrr1hfNfrMVlLafPjAmPrhOiouqr8B2GXMEOyPTlt9DBRYSV2Gzdnsh4Ru0EiynXNHd6orks212_lazybYQdT4g9b_km6re6ziwTNoAEIz_l2uzAcYfJ-i01VeWfHI3WBIQMFPPgG1xNQ9L4aG77ziOiBoU36pNzSgskLv2fsTBaszhsJiRwHo",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "establishment" ],
+         "vicinity" : "Borobudur"
+      }
+   ],
+   "status" : "OK"
+}
+
+INFO:root:Parker's response: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+{
+    "status": "OK", 
+    "html_attributions": [], 
+    "results": [
+        {
+            "name": "Jalan East Side Pedestrian Walk", 
+            "reference": "CsQBvAAAAO6b3bxvFZWpXEYkC1Bfr7gjrtoFkelljPDQc19vlxbzbvFsSssYb7jByn4nMKJzJ_IgFxI2aWOpPZXM8lpxDM1UqIgDJ7XYpSFrK0b-P4JYS5OTouwjf24Xw73sZ9gmQlrYLrpO8sAdp3eALI_aPDmhEk-Z8CHq2U2D5O4e56B1X6yKZM7_Wbb3IrlqTBdU0OG0Deir0m6N-LS09jFX2j3GOc_5Vfv-UgVhqUmWplUsRyyNTt9Izs2cmXmg-WbGjRIQefLM99wMVXIWq2abMu9naBoUeSx45FdXCbKKCd-z60ME5xgwql0", 
+            "geometry": {
+                "location": {
+                    "lat": -7.607898499999999, 
+                    "lng": 110.2047186
+                }
+            }, 
+            "place_id": "ChIJoftX7_GMei4R5fvM7_jSyFw", 
+            "scope": "GOOGLE", 
+            "id": "28d8139028a91e501fb46f9370965e7b0f0e7bd0", 
+            "types": [
+                "route"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png"
+        }, 
+        {
+            "name": "Borobudur Temple", 
+            "reference": "CnRtAAAAc0c2HXyLYlQnmLCNTuIUPVyYLmYSUovR2R2CpIH6korJMpUZnDt9QELXF2DDdWo3x12y1F79Yl2KWz8x2mZr9AyEAuyvuL9ggMBU_t4qQGwW5yOjZulcvlcnjn2S7mvWntfFo9puhGfSAWNg8xloPRIQdp4-IdGQYkbJ35gq_jgQghoUjGbmMZaj-WuDRDwWPgLeCY6VQY8", 
+            "geometry": {
+                "location": {
+                    "lat": -7.6078738, 
+                    "lng": 110.2037513
+                }
+            }, 
+            "place_id": "ChIJl9anCfCMei4Ry8NNdDRD0w0", 
+            "scope": "GOOGLE", 
+            "id": "b12ae5a1a6928770dbdc2f915737b756a13d1d0f", 
+            "types": [
+                "place_of_worship", 
+                "point_of_interest", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png"
+        }, 
+        {
+            "rating": 4.5, 
+            "name": "Borobudur Temple", 
+            "reference": "CnRjAAAAdKdQZ2an3bPCbjbstcKGx0cvCaKQZNBBJGyC1dHkmVIVC7V_ojhBjI7PJTx5AVZgz-kx3UoQ71xVR0ebT6COonqJaLD3L8sgL1hw1dGELbHYXXCY_lv7bqWWxylqbQduf7wKiSTzZ-zSbIK9h09GARIQGn0ydN7VEDr4a3smke9OxhoU_yL_fhg98mbzBL7VxEzbkGO7LyE", 
+            "geometry": {
+                "location": {
+                    "lat": -7.607874, 
+                    "lng": 110.203751
+                }
+            }, 
+            "place_id": "ChIJl9anCfCMei4Ry8NNdDRD0w0", 
+            "vicinity": "Indonesia", 
+            "photos": [
+                {
+                    "photo_reference": "CnRoAAAAyVy9sj3vdj6NIPbBqKJ-Xb2DSv7YWFXZaw5XoHmj3YmA032_LtRWiu8Hfxhf05JWWDGT_VnzBoulIfFHjYdAnm05cGQFgmB_Uyd0R-lvtCu1TLI3X2mNK3u6SGGUSGD0hsVo3Cvs4GJ2rAtifUM4QhIQ4eT9UpPVn7s6k1eLO4AAthoUd3wvcg881PyvDPxHGQa54TPpUfQ", 
+                    "width": 1032, 
+                    "html_attributions": [
+                        "From a Google User"
+                    ], 
+                    "height": 581
+                }
+            ], 
+            "scope": "GOOGLE", 
+            "id": "2e79c29c1b357916d91cbdece3c792d92f17ed3d", 
+            "types": [
+                "place_of_worship", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png"
+        }, 
+        {
+            "name": "Bank Jateng", 
+            "reference": "CmRfAAAA8kSDLuKFrj6Gh-27kBTP806_cl5rOkpWltHbKCl0OY4Dy4GBCk5SIpeJhqh8WSkmxbU_Jc4Sy83oTs-7pMwWWcHSE0QhcMrzvNjESLDLTPEJPDqmoYe2NBoGgm3jj6kpEhCR0kzxwTNYLkHNOCdISQbZGhQXsq4JidSxMaDyXZtH5GSGzqP7Jw", 
+            "geometry": {
+                "location": {
+                    "lat": -7.607869, 
+                    "lng": 110.203755
+                }
+            }, 
+            "place_id": "ChIJwSv_xPGMei4RFhYZXr27S8c", 
+            "vicinity": "Borobudur", 
+            "scope": "GOOGLE", 
+            "id": "c171feaf2b6ee84b020791db11d5888e49745ab8", 
+            "types": [
+                "atm", 
+                "finance", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png"
+        }, 
+        {
+            "name": "Yamaha", 
+            "reference": "CmRZAAAAJDpgu0Ln43sqZHzXMpeEcuVq09hqJovfRfRXvpm8dO3POFnnsgUhlGfStZ_GAAYxpvVedq1vgohSayaWqrGW3tIEWiwhAA5m-o0P9FNV5L7BcEQCENA-yKaAIu_GEP24EhC8-oJ3FFxshOoirqdmODW8GhR69ASQKGVgTVE3GYLTOLlPL4-2BA", 
+            "geometry": {
+                "location": {
+                    "lat": -7.607869, 
+                    "lng": 110.203755
+                }
+            }, 
+            "place_id": "ChIJwSv_xPGMei4RnPu_WrazxDc", 
+            "vicinity": "Borobudur", 
+            "scope": "GOOGLE", 
+            "id": "3d620ca9ebb0d48338a7519b205b299ca1c6119a", 
+            "types": [
+                "store", 
+                "establishment"
+            ], 
+            "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png"
+        }
+    ]
+}
+
+
+INFO:root:Line received: quit
+ERROR:root:Invalid command: quit
+INFO:root:Connection lost. Total: 0
+INFO:root:Parker server shutdown

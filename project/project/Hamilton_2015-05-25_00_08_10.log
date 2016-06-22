@@ -1,0 +1,27 @@
+INFO:root:Hamilton:8002 server started
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+INFO:root:Added new client: martha_hunt
+INFO:root:Location update by Hamilton: AT Alford -18559712.244 martha_hunt -7.607874+110.204051 1451072205.798801
+INFO:root:Location update sent from Hamilton to Parker
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+INFO:root:Added new client: cara_delevingne
+INFO:root:Location update by Hamilton: AT Bolden +31435289.7702 cara_delevingne +20.634281-156.451321 1401077205.798801
+INFO:root:Location update sent from Hamilton to Parker
+INFO:root:Connection lost. Total: 0
+INFO:root:Connection made. Total: 1
+INFO:root:Line received: IAMAT yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Added new client: yumi_lambert
+INFO:root:Hamilton's response: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Location update by Hamilton: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Location update sent from Hamilton to Parker
+INFO:root:Connection made. Total: 2
+INFO:root:Line received: AT Hamilton +31434191.7824 yumi_lambert +37.322752-122.030836 1401078305.798801
+INFO:root:Outdated/duplicate location update from Hamilton
+INFO:root:Connection lost. Total: 1
+INFO:root:Line received: quit
+ERROR:root:Invalid command: quit
+INFO:root:Connection lost. Total: 0
+INFO:root:Hamilton server shutdown
